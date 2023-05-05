@@ -1,0 +1,93 @@
+ul.nav{	
+	list-style: none;
+    margin: 0px;
+    padding: 0px;
+	background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+	position: fixed;
+	top: 0;
+	width: 100%;
+ }
+
+
+.nav li { 
+    display: inline; 
+}
+
+
+ul.nav a {
+    display: inline-block;
+    width: 5em;
+    padding:10px;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+/*    border: 1px solid grey;*/
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+}
+
+ul.nav a:hover{
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+
+html {
+  background-color: #fff;
+    
+}
+
+body {
+/*  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+/*  background-image: linear-gradient(to top, transparent 60px, #fff 60px, #fff 0);*/
+  background-image: url("cheese_back.jpg");
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font: 14pt 'Crimson Text';
+
+  margin: 0;
+}
+
+main {
+  padding: 70px;
+  width: 75vw;
+
+  max-width: 800px;
+  margin:40px auto;
+  margin-bottom: 0;
+  background: rgba(192, 192, 192, 0.8);
+  text-align: left;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+
+}
+
+.info_img{
+    float: right;
+    width: 200px;
+    height: 150px;
+    border: 2px solid;
+    margin: 7px 0 7px 7px; 
+
+}
+
+
+
+.foot{
+    border: 1px solid grey;
+    background-color: gray;
+    padding: 50px;
+    text-align: center;
+}
+
+/*footer {
+  position: sticky;
+  position: -webkit-sticky;
+  bottom: 0;
+  z-index: -1;
+  height: 50px;
+  background-color: dodgerblue;
+/*  color: white;*/
+/*  text-shadow: 2px 2px black;
+  padding: 5px 0;
+  text-align: center;
+}*/
